@@ -16,5 +16,24 @@ namespace GettingStartedWithSourceControl
         {
             InitializeComponent();
         }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            // Collect values from the user
+            int valueOne = Convert.ToInt32(valueOneTextBox.Text);
+            int valueTwo = Convert.ToInt32(valueTwoTextBox.Text);
+
+            // Decide operation to be performed
+
+            // Perform Operation (call method from math class)
+
+            // Display results to the user
+
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Logic to clear the textbox's and combo box
+        }
     }
 }
