@@ -26,5 +26,9 @@ namespace GettingStartedWithSourceControl
         }
 
         // Division method
+        public static int Division(int valueOne, int valueTwo)
+        {
+            return valueOne / valueTwo;
+        }
     }
 }
