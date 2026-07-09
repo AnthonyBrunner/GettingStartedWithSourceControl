@@ -9,11 +9,26 @@ namespace GettingStartedWithSourceControl
     public static class Calculator
     {
         // Addition method
-
+        public static int Addition(int valueOne, int valueTwo)
+        {
+            return valueOne + valueTwo;
+        }
         // Subtraction method
+        public static int Subtraction(int valueOne, int valueTwo)
+        {
+            return valueOne - valueTwo;
+        }
 
         // Multiplication method
+        public static int Multiplication(int valueOne, int valueTwo)
+        {
+            return valueOne * valueTwo;
+        }
 
         // Division method
+        public static int Division(int valueOne, int valueTwo)
+        {
+            return valueOne / valueTwo;
+        }
     }
 }
