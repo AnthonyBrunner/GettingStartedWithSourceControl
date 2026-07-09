@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GettingStartedWithSourceControl
 {
-    public static class Math
+    public static class Calculator
     {
         // Addition method
 
