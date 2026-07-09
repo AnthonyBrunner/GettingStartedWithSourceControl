@@ -20,6 +20,10 @@ namespace GettingStartedWithSourceControl
         }
 
         // Multiplication method
+        public static int Multiplication(int valueOne, int valueTwo)
+        {
+            return valueOne * valueTwo;
+        }
 
         // Division method
     }
