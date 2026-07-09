@@ -15,6 +15,10 @@ namespace GettingStartedWithSourceControl
         }
 
         // Subtraction method
+        public static int Subtraction(int valueOne, int valueTwo)
+        {
+            return valueOne - valueTwo;
+        }
 
         // Multiplication method
 
